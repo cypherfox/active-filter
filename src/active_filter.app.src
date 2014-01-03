@@ -1,0 +1,12 @@
+{application, active_filter,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { active_filter_app, []}},
+  {env, []}
+ ]}.
